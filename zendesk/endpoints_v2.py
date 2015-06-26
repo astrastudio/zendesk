@@ -10,7 +10,7 @@ mapping_table = {
         'method': 'GET',
     },
     'list_requested_tickets': {
-        'path': '/users/{{view_id}}/tickets/requested.json',
+        'path': '/users/{{view_id}}/tickets/requested.json?sort_order=desc&sort_by=updated_at',
         'method': 'GET',
     },
     'show_ticket': {
